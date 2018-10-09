@@ -63,10 +63,17 @@ $(function(){
               $(this).parent('.leftli2').siblings().removeClass('leftli22');       			
         		  $(this).parent().siblings().children('a').children('.listup').children('.lup').removeClass('uup');  	
 	        		})
-        		$('.a2').click(function(){
+//         		$('.a2').click(function(){
+//         			$(this).siblings('.list-group').slideToggle('show');
+//         			$(this).children('.listup').children('.lup1').toggleClass('ldown1');
+//         		})
+	        		$('.a2').click(function(){
         			$(this).siblings('.list-group').slideToggle('show');
+        			$(this).parent().siblings().children('.list-group').slideUp('show');
         			$(this).children('.listup').children('.lup1').toggleClass('ldown1');
+         			$(this).parent().siblings().children('.a2').children('.listup').children('.lup1').removeClass('ldown1');       			
         		})
+	
         		$('.shut').click(function(){
                     $('.phlist').animate({'left':'-100%'},1000);
         		})
