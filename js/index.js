@@ -48,11 +48,20 @@ $(function(){
         			$('.phul').append(tag);        			
                     $(this).val('');
         		})
-        		$('.a1').click(function(){
+	
+//         		$('.a1').click(function(){
 //      			$(this).parent('.leftli2').siblings().children('.manlist').slideToggle('show');
-                    $(this).parent('.leftli2').toggleClass('leftli22');
-        			$(this).siblings('.manlist').slideToggle('show');
-                    $(this).children('.listup').children('.lup').toggleClass('uup');
+//                     $(this).parent('.leftli2').toggleClass('leftli22');
+//         			$(this).siblings('.manlist').slideToggle('show');
+//                     $(this).children('.listup').children('.lup').toggleClass('uup');
+// 	        		})
+	        $('.a1').click(function(){
+		$(this).siblings('.manlist').slideToggle('show');        			    			
+ 		$(this).parent('.leftli2').siblings().children('.manlist').slideUp('show');       			
+              $(this).parent('.leftli2').toggleClass('leftli22');
+              $(this).children('.listup').children('.lup').toggleClass('uup');                
+              $(this).parent('.leftli2').siblings().removeClass('leftli22');       			
+        		  $(this).parent().siblings().children('a').children('.listup').children('.lup').removeClass('uup');  	
 	        		})
         		$('.a2').click(function(){
         			$(this).siblings('.list-group').slideToggle('show');
