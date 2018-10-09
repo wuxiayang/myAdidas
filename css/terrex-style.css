@@ -1,0 +1,29 @@
+.zhaovideo{
+	margin-top: 54px;
+    padding: 0px 100px 55px 100px;
+}
+.zhaovideo  img{
+	width: 100%;
+}
+.sun .lebox .lebox1,
+.sun .lebox .lebox2{
+	width: 50%;
+}
+.sun .backtop{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.sun .backtop .topb{
+	display: inline-block;
+    font-size: 15px;
+    width: 54%;
+    height: 37px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 5px 38px 5px 38px;
+}
+@media (max-width:1024px ) {
+	.zhaovideo{
+		padding: 0px;
+	}
+}

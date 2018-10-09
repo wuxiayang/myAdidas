@@ -1,0 +1,422 @@
+.sun a{
+	text-decoration: none;
+	color: black;
+}
+.sun .carousel-indicators{
+	background: none;
+	border-radius:0px;
+}
+.sun .carousel-indicators li {
+	border: none;
+	background-color: #ddd;
+}
+.sun .carousel-indicators .active{
+	width: 123px; 
+}
+.sun .selectshoe{
+	position: relative;
+	top:80px;
+	top: 78px;
+	height: auto;
+    background: #f8f8f8;
+}
+.sun .selectshoe .shoetitle{
+	width: 100%;
+	background: #f8f8f8;
+	height: auto;
+	padding: 104px 0px;
+}
+.sun .shoetitle img{
+	    display: block;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+
+.sun .shoename{
+	width: 70%;
+    text-align: center;
+    display: flex;
+    font-size: 18px;
+    height: auto;
+    margin: 0 auto;
+}
+.sun .shoename li{
+	color: #cdcdcd;
+    flex: 1;
+    padding: 18px 0px 18px 0px;
+}
+.sun .shoename li.showbg{
+	background: white;
+	color: black;
+}
+.sun .shoelist{
+	background: white;
+    padding-bottom: 42px;	
+	display: none;
+}
+.sun  .showon{
+	display: block;
+}
+.sun .shoelistshow{
+	width: 80%;
+    margin: 0 auto;
+}
+.sun .shoelistshow li{
+    position: relative;
+    padding-bottom: 25px;
+}
+.sun .shoelistshow li .shoeh{
+    position: absolute;
+    text-align: center;
+    width: 66%;
+    left: 15%;
+}
+.sun .shoelistshow img{
+	width: 100%;
+}
+
+.sun .shoeh .shoeh1,
+.sun .shoeh .shoeh2{
+    font-weight: bold;
+}
+.sun .shoeh .shoeh2{
+	padding: 4px 13px 4px 13px;
+	border: 2px solid #000;;
+	display: none;
+}
+.sun .inspiration{
+	/*background: red;*/
+	height: auto;
+	height: 100%;
+    position: relative;
+    margin-top: 105px;	
+}
+.sun .inspirationbg img{
+	width: 100%;
+}
+.sun .inspirationtitle{
+	position: absolute;
+    /* width: 13%; */
+    top: 11px;
+    color: white;
+    padding: 2px 0px 2px 0px;
+    width: 100%;
+    background: black;	
+}
+.sun .inspirationtitle h3{
+    margin: 0 auto;
+    width: 9%;	
+}
+.sun .inspirationtitle h6{
+	margin: 0 auto;
+    width: 10%;
+    margin-top: 11px;
+}
+.sun .inspirationimg{
+    display: flex;
+    top: 76px;
+    left: 10%;
+    background: black;
+    /*background: yellow;*/
+    position: absolute;
+    flex-direction: row;
+    width: 82%;
+}
+.sun .inspirationimg li{
+	flex: 1;
+}
+.sun .leftroll{
+    position: relative;
+    /*margin-top: 420%;*/
+}
+.sun .leftrollbg{
+	/*float: left;*/
+}
+.sun .leftrollbg img,
+.sun .sendbottom img{
+	width: 100%;
+}
+.sun .threeroll{
+    width: 28%;
+    height: 85%;
+    /*float: left;*/
+    /*position: relative;*/
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    overflow: hidden;
+}
+	/*.sun .threeroll1{
+		width: 49%;
+		height: 68%;
+	}*/
+.sun .threeroll ul.th{
+    width: 112%;
+    height: auto;
+    top: 0%;
+    position: relative;	
+}
+.sun .threeroll ul.th li{
+	float: left;
+}
+.sun .threeroll ul.th li img{
+	width: 100%;
+}
+.sun .threeroll ol{
+	position: absolute;
+    bottom: -3px;
+    left: 50%;
+    margin-left: -58px;
+}
+.sun .threeroll ol li{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 18px;
+    float: left;
+    background: #f2f2f2;
+}
+	/*.sun .threeroll1 ol{
+		margin-left: -34px;
+	}
+	.sun .threeroll1 ol li{
+		height: 14px;
+		width: 14px;
+	}*/
+.sun .threeroll ol li.cycle{
+	background: white;
+}
+.sun .leftrollbg .leftcontent{
+	position: absolute;
+    float: right;
+    right: 119px;
+    height: 50px;
+    width: 28%;
+    top: 104px;
+}
+.sun .leftcontent h3{
+	font-weight: bold;
+}
+.sun .leftcontent span{
+	    width: 47%;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px 21px 8px 22px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.sun .leftcontent p{
+	    width: 74%;
+	    margin: 0px;
+}
+.sun .leftcontent span:nth-child(3){
+	    background: white;
+	    border: 2px solid #000;
+}
+.sun .leftcontent span:nth-child(4){
+	    background: black;
+	    color:white;
+}
+.sun .sendbottom{
+    background: #fbfbfb;
+    padding: 47px 0px 16px 0px;
+}
+.sun .sendimg{
+	flex-direction: row;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.sun .sendimg li{
+	flex: 1;
+}
+.sun .backtop{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.sun .backtop .topb{
+	display: inline-block;
+    font-size: 15px;
+    width: 54%;
+    height: 37px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 5px 38px 5px 38px;
+}
+@media (max-width:1024px ) {
+	.sun .selectshoe .shoetitle{
+		background:#f3f3f3;
+	}
+	
+	.sun .shoetitle img{
+		width: 100%;
+	}
+	.sun .inspirationimg{
+	    flex-direction: column;
+	    width: 100%;	
+	    left: 0px;
+	    top: 63px;	
+	}
+	.sun .inspirationimg img{
+		width: 100%;
+	}
+	.sun .inspirationtitle h3{
+		font-size: 22px;
+		width: 13%;
+	}
+	.sun .inspirationtitle h6{
+		width: 16%;
+	}
+	.sun .leftroll{
+    	margin-top: 392%;		
+	}
+	.sun .sendimg{
+		flex-direction: column;
+	}
+    .sun .threeroll{
+    	    width: 55%;
+    	    float: left;
+    /*height: 78%;*/
+   height: 78%;
+    
+    }
+	/*.sun .threeroll1{
+		width: 49%;
+		height: 68%;
+	}
+	.sun .threeroll1 ul.th1{
+		top: 0%;
+	}*/
+	.sun .leftroll{
+		margin-bottom: 193px;
+	}
+	.sun .leftrollbg .leftcontent{
+		/*left: 28%;*/
+		/*top:796px;*/
+		position: relative;
+		top:0px;
+		/*width: 63%;*/
+		left: 0%;
+		text-align: center;
+		width: 100%;
+		float: left;
+		padding-top: 10px;
+	}
+	.sun .leftrollbg .leftcontent p{
+		width: 100%;
+	}
+	.sun .leftrollbg .leftcontent span{
+		margin: 0 auto;
+		margin-bottom: 5px;
+	}
+}
+@media (max-width:768px ) {
+	.sun .shoename{
+		font-size: 14px;
+	}
+	.sun .inspirationimg{
+		top: 57px;
+	}
+	.sun .inspirationtitle h3{
+		font-size: 17px;
+   		 width: 16%;
+	}
+	.sun .inspirationtitle h6{
+    	width: 24%;
+	}	
+	.sun .leftroll{
+    	margin-top: 392%;	
+    	 margin-bottom: 224px;	
+	}
+		.sun .threeroll{
+		    width: 60%;
+		    height: 85%;
+		    float: left;
+	}
+		.sun .leftrollbg .leftcontent{
+		/*left: 28%;
+    top: 666px;
+		width: 63%;*/
+				/*left: 0%;
+		text-align: center;
+		width: 100%;
+		float: left;*/
+		/*top:583px;*/
+		/*padding-top: 10px;*/
+	}
+	.sun .leftrollbg .leftcontent p{
+		/*width: 93%;*/
+		/*width: 100%;*/
+	}
+	.sun .leftrollbg .leftcontent span{
+		/*margin: 0 auto;*/
+		    padding: 4px 21px 4px 22px;
+	}
+}
+@media (max-width:480px ) {
+	.sun .shoename{
+		font-size: 12px;
+	}
+	.sun .inspirationimg{
+		top: 55px;		
+	}
+	.sun .inspirationtitle h3{
+	    font-size: 15px;
+	    width: 23%;
+	}
+	.sun .inspirationtitle h6{
+    	width: 36%;
+	}
+	.sun ..sun .threeroll{
+		float: left;
+	}
+	.sun .leftrollbg .leftcontent{
+		/*left: 16%;
+    	top: 344px;
+		width:78%;*/
+		/*left: 0%;
+		text-align: center;
+		width: 100%;
+		float: left;*/
+		    /*top: 413px;*/
+	}
+    .sun .leftrollbg .leftcontent h3{
+    	font-size: 12px;
+    }
+    .sun .leftrollbg .leftcontent p{
+    	    /*width: 79%;*/
+    	   /*width: 100%;*/
+    }
+    .sun .leftrollbg .leftcontent span{
+    	/*width: 71%;*/
+    	/*margin: 0 auto;*/
+    /*display: block;*/
+    /*text-align: center;*/
+    font-size: 12px;
+    padding: 3px 21px 3px 22px;
+    margin-bottom: 2px;
+    /*font-weight: bold;*/
+    }
+}
+/*@media (min-width:320px) {
+	.sun .leftrollbg .leftcontent{
+		left: 16%;
+    	top: 243px;
+		width:84%;
+	}
+    .sun .leftrollbg .leftcontent h3{
+    	font-size: 12px;
+    }
+    .sun .leftrollbg .leftcontent p{
+    	    width:85%;
+    	    margin: 0px;
+    }
+    .sun .leftrollbg .leftcontent span{
+    	width: 37%;
+    font-size: 12px;
+    padding: 1px 21px 1px 22px;
+    margin-bottom: 2px;
+    }	
+}*/

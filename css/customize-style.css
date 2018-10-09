@@ -1,0 +1,303 @@
+.sun .firbanner{
+	padding-top: 78px;
+    position: relative;
+}
+.sun .firbanner img{
+	    width: 100%;
+}
+.sun .firbanner  .banner-title{
+	/*border: 1px solid;*/
+    width: 28%;
+    top: 49%;
+    left: 201px;
+    position: absolute;
+    font-weight: bold;
+}
+.sun .firbanner span{
+	background: black;
+    color: white;
+    padding: 4px 14px 4px 13px;
+}
+.sun .firbanner span em{
+    display: inline-block;
+    height: 16px;
+    vertical-align: bottom;
+    width: 19px;
+    margin-left: 15px;
+    background: url(../images/icon.png) no-repeat -118px -20px;
+}
+.sun .goodspart h3{
+	font-weight: bold;
+    text-align: center;
+}
+.sun .goodspart ul.navlist{
+	width: 72%;
+    font-size: 14px;
+    line-height: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 1px 8px 20px rgba(0, 0, 0, 0.05);
+    background-color: #ebedee;	
+}
+.sun .goodspart ul.navlist li{
+	float: left;
+	flex: 1;
+}
+.sun .goodspart ul.navlist li:nth-child(4),
+.sun .goodspart ul.navlist li:nth-child(5){
+	    padding-right: 5px;
+}
+.sun .goodspart ul.navlist li:hover{
+	color: #5e5f5f;
+}
+.sun .goodspart ul.navcontent{
+	width: 100%;
+    /*display: flex;*/
+    margin-top: 41px;
+}
+.sun .goodspart ul.navcontent li{
+	/*flex: 1;*/
+	float: left;
+	width: 25%;
+	padding: 0px 9px 10px 9px;
+    position: relative;
+}
+.sun .goodspart ul.navcontent li img{
+	width: 100%;
+}
+.sun .navtitle{
+    position: absolute;
+    top: 72%;
+    left: 18%;
+    text-align: center;
+    width: 60%;
+    /*border: 1px solid #000;*/
+}
+.sun .navtitle h3{
+	font-size: 19px;
+}
+.sun .navtitle span{
+    width: 40%;
+    /* text-align: center; */
+    background: black;
+    color: white;
+    left: auto;
+    font-weight: bold;
+    padding: 3px 0px 3px 0px;	
+}
+.sun .navtitle em{
+    height: 17px;
+    width: 17px;
+    background: url(../images/icon.png) no-repeat -93px -19px;
+    vertical-align: bottom;
+}
+.sun .pinkbg img{
+	width: 100%;
+}
+.sun .sendnew{
+    top: -128px;
+    position: relative;	
+}
+.sun .newbox .nul li img{
+	width: 100%;
+}
+.sun .adban{
+	 margin-top: -91px;
+}
+.sun .lebox .lebox1,
+.sun .lebox .lebox2{
+	width: 50%;
+}
+.sun .story{
+    position: relative;	
+}
+.sun .storybg img{
+	width: 100%;
+}
+.sun .story .storycon{
+    position: absolute;
+    float: left;
+    /*top: 116px;*/
+    margin-top: -483px;
+    width: 25%;
+    left: 154px;
+    /*border: 1px solid #000;*/
+}
+.sun .story .storycon span:nth-child(3){
+	width: 7%;
+    background: black;
+    display: inline-block;
+    height: 2px;
+    /* height: 1%; */
+    margin-bottom: 10px;
+}
+.sun .story .storycon p{
+    font-size: 15px;	
+}
+.sun .story .storycon span:nth-child(7){
+    border: 2px solid black;
+    width: 61%;
+    text-align: center;
+    font-size: 17px;
+    padding: 7px 0px 7px 0px;	
+}
+.sun .story .storygif{
+    float: right;
+    /* top: 50%; */
+    right: 48px;
+    top: 89px;
+    position: absolute;	
+}
+.sun .story .storygif img{
+	width: 83%;	
+}
+.sun .team{
+	margin-bottom: 15px;
+}
+.sun .team h1{
+	text-align: center;
+}
+.sun .team img{
+	width: 100%;
+}
+.sun .team li{
+	margin-bottom: 4px;
+}
+.sun .backtop{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.sun .backtop .topb{
+	display: inline-block;
+    font-size: 15px;
+    width: 54%;
+    height: 37px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 5px 38px 5px 38px;
+}
+@media  (max-width:1024px) {
+	.sun  .firbanner .banner-title{
+		width: 62%;
+	    top: 68%;
+	    left: 53px;
+	    position: absolute;
+	    font-weight: bold;
+	}
+	.sun .firbanner .banner-title h1{
+		font-size: 27px;
+	}
+	.sun .firbanner .banner-title h3{
+		font-size: 14px;
+	}
+	.sun .goodspart ul.navlist{
+		font-size: 12px;
+	}
+	.sun .goodspart ul.navcontent li{
+		width: 50%;
+	}
+	.sun .navtitle{
+		top: 60%;
+	}
+	.sun .navtitle h3{
+    	font-size: 17px;		
+	}
+	.sun .navtitle span{
+		width: 48%;
+	}
+	.sun .sendnew {
+    	top: -287px;
+    }
+	.sun .nul li .t1{
+    	width: 25%;		
+	}
+	.sun .adban{
+    	margin-top: -235px;
+	}
+	.sun .story .storycon{
+
+		    
+	}	
+	.sun .story .storygif{
+		right: 27%;
+		top: 52%;
+    	float: left;		
+	}	
+	.sun .team li{
+		margin-bottom: 0px;
+	}
+}
+@media (max-width:768px) {
+	.sun .story .storygif{
+		right: 12%;
+		top: 48%;
+    	float: left;		
+	}		
+}
+@media (max-width:480px) {
+	.sun .sendnew {
+    	top: -121px;
+    }
+	.sun .nul li .t1 {
+    	width: 44%;
+    } 
+    .sun .navtitle{
+    	left: 11%;
+    	width: 83%;
+    } 
+    .sun .navtitle h3{
+    	margin-top: 9px;
+    	margin-bottom: 0px;
+    } 	
+	.sun .story .storygif{
+	    right: 1px;
+	    left: 53px;
+	    top: 27%;
+	    /*float: left;*/
+	}	
+	.sun .story .storycon{
+		margin-top: -238px;
+	    width: 92%;
+	    left: 12px;	
+	}	
+	.sun .story .storycon h1{
+		font-size: 25px;
+	}
+	.sun .story .storycon p {
+	    font-size: 12px;
+	}
+	.sun .story .storycon span:nth-child(7) {
+	    font-size: 14px;
+	    padding: 4px 0px 4px 0px;
+	}		
+}
+@media (max-width:370px) {
+	.sun .story .storygif{
+	    right: 1px;
+	    left: 53px;
+    	top: 17%;
+	    /*float: left;*/
+	}
+	.sun .navtitle{
+		top: 56%;
+	}	
+	.sun .story .storycon{
+    	margin-top: -175px;
+	    width: 92%;
+	    left: 12px;	
+	}	
+	.sun .story .storycon h1{
+		font-size: 12px;
+		margin: 0px;
+	}
+	.sun .story .storycon p {
+	    font-size: 12px;
+	    margin: 0px;
+	}
+	.sun .story .storycon span:nth-child(7) {
+	    font-size: 12px;
+	    padding: 2px 0px 2px 0px;
+	}		
+}

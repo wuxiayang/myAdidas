@@ -1,0 +1,75 @@
+.sun img{
+	width: 100%;
+}
+.sun .allstar{
+	    position: relative;
+    margin-top: 78px;
+}
+.sun .allstarvideo{
+    display: block;
+    position: absolute;
+    width: 83px;
+    top: 28%;
+    border-radius: 40px;
+    left: 47%;
+    height: 83px;
+    /*background: yellow;*/
+}
+.sun .yeepart{
+	    position: relative;
+    /*height: auto;*/
+}
+/*.sun  .yeepart .yeebg{
+	position: absolute;
+    top: 0px;
+    float: left;
+}*/
+.sun .yeepart .yeevideoroll{
+	position: absolute;
+    width: 37%;
+    /*height: 100%;*/
+    top: 142px;
+    left: 19%;
+    /*height: auto;*/
+   height: 60%;
+    overflow: hidden;	
+}
+.sun .yeevideoroll .yeevideo{
+    position: relative;
+    width: 101%;
+    top: 0px;
+    /*height: 300%;*/
+}
+.sun .yeepart .yeevideo li{
+	float: left;
+}
+.sun .yeevideoroll ol{
+	position: absolute;
+    bottom: -3px;
+    left: 50%;
+    margin-left: -58px;	
+}
+.sun  .yeevideoroll ol li{
+    width: 30px;
+    height: 7px;
+    /* border-radius: 50%; */
+    border: 1px solid white;
+    margin-right: 18px;
+    float: left;
+    background: #f2f2f2;
+}
+.sun  ol.yeeol{
+	position: absolute;
+    bottom: -3px;
+    left: 50%;
+    margin-left: -58px;	
+}
+.sun  ol.yeeol li{
+    width: 30px;
+    height: 7px;
+    /* border-radius: 50%; */
+    border: 1px solid white;
+    margin-right: 18px;
+    float: left;
+    background: #f2f2f2;
+}

@@ -1,0 +1,71 @@
+.sun .foursend{
+	/*background: yellow;*/
+	width: 100%;
+	/*height: 300px;*/
+	height: auto;
+	margin-top: 106px;
+}
+.sun .foursend li{
+	box-shadow: none;
+}
+.sun .foursend img{
+	width: 100%;
+}
+.sun .foursendtitle,
+.sun .foursendtitle span{
+	display: block;
+}
+.sun .foursendtitle{
+	    padding: 5%  0%  5% 16%;
+}
+.sun .foursendtitle span:nth-child(1){
+	color: black;
+    font-size: 18px;
+    font-weight: bold;	
+}
+.sun .foursendtitle span{
+    margin: 0 auto;
+    width: 50%;
+    padding: 3px 0px 3px 0px;
+}
+.sun .fourpart{
+	/*background:red;*/
+	width: 100%;
+	height: 243px;
+}
+.sun .fourpart ul{
+	width: 100%;
+}
+.sun .fourpart ul li.ul1{
+    padding: 1% 0% 5% 10%;	
+}
+.sun .fourpart li.ul1 li{
+	padding: 3px 0px 3px 0px;
+}
+.sun .fourpart ul.ul2 li{
+	padding: 1% 7% 0% 7%;
+    border-top: 1px solid #ddd;
+    font-size: 14px;	
+}
+.sun .backtop{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.sun .backtop .topb{
+	display: inline-block;
+    font-size: 15px;
+    width: 54%;
+    height: 37px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 5px 38px 5px 38px;
+}
+@media (max-width:1024px) {
+	.sun .foursendtitle{
+		background: black;	
+	}
+	.sun .foursendtitle span:nth-child(1),
+	.sun .foursendtitle span{
+		color: white;
+	}
+}

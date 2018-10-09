@@ -1,0 +1,242 @@
+.sun .topbanner{
+	/*position: relative;*/
+    /*width: 100%;*/
+    padding-top: 78px;
+}
+.sun .topbanner .b1{
+	width: 100%;
+    position: relative;
+}
+.sun .adban{
+	/*width: 100%;*/
+	margin-top: 40px;
+    height: 628px;
+    /*border: 1px solid red;*/	
+}
+.sun .adban li{
+	overflow: hidden;
+}
+.sun .adban .lebox img,
+.sun .adban .ribox img{
+	width: 100%;
+}
+
+.sun .adban ul{
+	float: left;
+}
+.sun .adban .lebox,
+.sun .adban .ribox{
+	width: 50%;
+	float: left;
+}
+.sun .lebox{
+	margin-right: -0.01%;
+}
+.sun .lebox .lebox1{
+    width: 49.27%;
+    /*float: left;*/
+}
+.sun .lebox .lebox2{
+	width: 50.73%;
+}
+.sun .ribox .ribox4 li{
+	width: 50%;
+	float: left;
+}
+.sun .fourlist{
+	padding-top: 20px;
+	height: 400px;
+}
+.sun .fourlist img{
+	width: 100%;
+}
+
+.sun .fourlist li{
+	width: 25%;
+	float: left;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	position: relative;
+}
+.sun .fourlist li:nth-child(1){
+	padding-left: 0px;
+	padding-right: 1%;
+}
+.sun .fourlist li:nth-child(4){
+	padding-left: 1%;
+	padding-right: 0px;
+}
+.sun .fourlist .atitle{
+	display: block;
+	position: absolute;
+	top: 64%;
+	width: 95%;
+    text-align: center;
+}
+.sun .fourlist .atitle span,
+.sun .fourlist .atitle em{
+	display: inline-block;
+}
+.sun .fourlist .atitle .at1{
+	width: 85%;
+	color: white;
+	font-size: 32px;
+	font-weight: bold;
+}
+.sun .fourlist .atitle .at2{
+    color: black;
+    font-size: 17px;
+    background: rgba(255,255,255,0.8);
+    width: 40%;
+    margin-top: 7px;
+    padding: 10px 5px 10px 5px;
+}
+.sun .fourlist .atitle .at2 em{
+    height: 17px;
+    width: 17px;
+    background: url(../images/icon.png) no-repeat -73px -20px;
+    vertical-align: bottom;
+}
+.sun .noroll{
+	height: auto;
+	margin-top: 15px;
+}
+.sun .noroll  img,
+.sun .rollno  img{
+	width: 100%;
+}
+.sun .rollno{
+	width:100%;
+    /* left: -95px; */
+    overflow: hidden;        		          		      		
+}
+
+.sun .rollno .box{
+	width: 350%;
+    position: relative;
+    display: flex;
+    left: -50%;	
+}
+.sun .rollno .box li{
+	position: relative;
+    flex: 1;
+    margin-right: 107px;
+}
+.sun .rollno span{
+    /*position: absolute;*/
+
+    /* position: relative; */
+    /* top: 64%; */
+    /* top: 9px; */
+    position: absolute;
+    width: 41px;
+    height: 76px;
+    text-align: center;
+    line-height: 40px;
+
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    /* top: 50%; */
+    margin-top: 11%;
+    /* margin-top: 154px; */
+    cursor: pointer;
+    z-index: 1;	
+}
+.sun  .rollno span.pull-left{
+	    left: 15%;
+    background: url(../images/icon.png) no-repeat 0px -456px;	    
+}
+.sun  .rollno span.pull-right{
+	    right: 13%;
+    background: url(../images/icon.png) no-repeat -54px -456px;	    
+}
+.sun .backtop{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.sun .backtop .topb{
+	display: inline-block;
+    font-size: 15px;
+    width: 54%;
+    height: 37px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 5px 38px 5px 38px;
+}
+/*媒体查询*/
+@media (max-width:1024px) {
+	.sun .topbanner{
+		padding-top: 51px;
+	}
+	.sun .adban .lebox,
+    .sun .adban .ribox{
+	width: 100%;
+	float: left;
+   }
+   .sun .adban .lebox{
+   	margin-bottom: 0px;
+   }
+    .sun .adban .ribox ul{
+    	width: 100%;
+    }
+    .sun .fourlist{
+       float: left;
+       height: auto;
+    }
+    .sun .fourlist li{
+    	width: 50%;
+    	padding-bottom: 4%;
+    }
+    .sun .fourlist li:nth-child(2n+1){
+    	padding-right: 6%;
+    	padding-left: 0%;
+
+    }    
+    .sun .fourlist li:nth-child(2n){
+    	padding-right: 5%;
+    	padding-left: 1%;
+    }
+     /*.sun .fourlist li:nth-child(3){
+    	padding-right: 1%;
+    	padding-left: 0px;
+    }*/
+	.sun  .rollno span.pull-left{
+    	left: 13%;
+    }	
+}
+/*@media  (min-width:769px) {
+   .sun  .rollno span.pull-left{
+    	left: 10%;
+    }	
+}*/
+@media (max-width:768px){
+	.sun .fourlist .atitle .at1{
+		font-size: 15px;
+	}
+	.sun .fourlist .atitle .at2 {
+	    font-size: 12px;
+	    width: 46%;
+	    margin-top:4px;
+	    padding: 5px 5px 5px 5px;
+    }
+ 
+}
+@media  (max-width:480px) {
+	.sun  .rollno span.pull-left,
+	.sun  .rollno span.pull-right{
+		width: 25px;
+    	height: 47px;
+		background-image: url(../images/icon.png);
+		background-repeat: no-repeat;
+		background-size: 500px;
+	}	
+	.sun  .rollno span.pull-left{
+		background-position: 0px -220px;
+	}
+	.sun  .rollno span.pull-right{
+		background-position: -27px -220px;
+	}
+	.sun .rollno .box li{
+		margin-right: 46px;
+	}
+}
