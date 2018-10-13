@@ -17,29 +17,6 @@ $(function(){
 	            
 	             var timer;
                 var num=0;
-//           			      function gogo1(){
-//			                    clearInterval(timer)
-//			                    timer=setInterval(function(){
-//			                        num++;
-//			                        if(num>3){
-//			                            num=0;
-//			                        }
-//			                        // 让ul左移;
-//			                        $('.th1').css('top', -num*103+'%');
-//			                        // 对应的圆圈增加类
-//			                        $('.th1>li').eq(num).addClass('cycle');
-//			                        // 兄弟姐妹删除类
-//			                        $('.threeroll1>ol li').eq(num).siblings().removeClass('cycle');
-//			                        // $('ol li').eq(num).addClass('current').siblings().removeClass('current');
-//			                    },1000)
-//			                }
-//			                gogo1();    
-//                              $('.threeroll1>ol li').click(function(event) {
-//                  num=$(this).index();
-//                  $('.th1').css('top', -num*103+'%');
-//                  $(this).addClass('cycle');
-//                  $(this).siblings().removeClass('cycle');
-//              });
                 function gogo(){
                     clearInterval(timer)
                     timer=setInterval(function(){
@@ -72,9 +49,5 @@ $(function(){
                  	$(this).css('opacity','1');
                 	$(this).parent().siblings().children('img').css('opacity','1');               	
                 })
-               
-                
-          
-
-	            
+            
 })

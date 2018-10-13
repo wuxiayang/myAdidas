@@ -1,0 +1,175 @@
+/*商品轮播图部分*/
+.sun .sendnew h2{
+	    text-align: center;
+}
+.sun .newbox,.sun .hotsale{
+    overflow: hidden;
+    width: 952px;
+    height: 314px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+.sun .newbox .nul,.sun .hotsale .nul1{
+    position: relative;
+    /* margin-left: -81px; */
+    width: 300%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    left: 0%;
+}
+.sun .hotsale .nul1{
+	height: 324px;
+}
+.sun .newbox .nul li,.sun .hotsale .nul1 li{
+    position: relative;
+    float: left;
+    flex: 1;
+    /*width: 25%;*/
+    /*border: 1px solid;*/
+    /* position: absolute; */
+    box-shadow: none;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.sun .nul li .t1,.sun .nul1 li .t1{
+	display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 31px;
+    width: 16%;
+    /* top: 401px; */
+    background: #29a870;
+}
+
+.sun .hotsale .nul1 li .t1{
+	background: #0087cd;
+}
+.sun .hotsale .nul1 li .t3{
+	width: 28%;
+}
+.sun .hotsale .nul1 li .t4{
+	background:#e25343;
+	width: 19%;
+}
+.sun .nul li .t1 i,.sun .nul1 li .t1 i{
+	color: white;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.sun .nul .t2,.sun .nul1 .t2{
+   display: block; 
+   padding-top: 19px;
+}
+.sun .nul .t2 em,.sun .nul1 .t2 em{
+	font-weight: bold;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.sun .hotsale{
+	position: relative;
+	height: 369px;
+}
+.sun .hotsale .left,.sun .hotsale .right{
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+/*    z-index: 1000;*/
+    /*border: 1px solid;*/
+    position: absolute;
+    cursor: pointer;
+    background-image: url(../images/icon1.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    top:91px
+}
+.sun .hotsale .left{
+	left: 0px;
+}
+.sun .hotsale .right{
+	right: 8px;
+}
+/*.sun .hotsale .left{
+	background: url(../images/icon1.png) no-repeat;
+}*/
+.sun .hotsale .le1{
+    background-position: -71px -553px;
+}
+.sun .hotsale .le2{
+	background-position: -286px -553px;	
+}
+.sun .hotsale .ri1{
+    background-position: -108px -553px;
+}
+.sun .hotsale .ri2{
+	background-position: -324px -553px;
+}
+.sun .hotsale ol{
+	position: absolute;
+	left: 42%;
+}
+.sun .hotsale ol li{
+	height: 4px;
+    width: 35px;
+    float: left;
+    margin-right: 7px;
+	/*border: 1px solid #000;*/
+	background: #F2F2F2;
+}
+.sun .hotsale ol li.current{
+	background: black;
+}
+
+/*控制显示隐藏的标签*/
+
+.sun .show {
+	display: flex;
+}
+
+.sun .nonelg {
+	display: none!important;
+}
+
+@media (max-width:1024px){
+		.sun .blocksm {
+		display: block!important;
+		zoom: normal;
+	}
+	.sun .nonesm {
+		display: none!important;
+		visibility: hidden;
+	}
+}
+@media (max-width:768px) {
+	.sun .blocksm {
+		display: block!important;
+		zoom: normal;
+	}
+	.sun .nonesm {
+		display: none!important;
+		visibility: hidden;
+	}
+}
+
+@media (max-width:1024px){
+	.sun .hotsale{
+		margin-bottom: 0px;
+	}
+	.sun .hotsale .left {
+    	left:29px;
+	}
+    .sun .newbox,.sun .hotsale{
+       width: 100%;
+       /*position: relative;*/
+    }
+    .sun .newbox .nul{
+       margin-left: 27px;
+    }
+
+    .sun .hotsale .nul1{
+       margin-left: 27px;
+    }		
+}

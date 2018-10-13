@@ -1,0 +1,104 @@
+.sun .carousel{
+	top:77px;
+}
+/*轮播图部分*/
+.sun .carousel-indicators li{
+    width: 30px;
+    height: 5px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #F2F2F2;
+    /*background-color: rgba(0, 0, 0, 0);*/
+    border:0.5px solid white;
+    border-radius: 0px;
+}
+.sun .carousel-indicators .active{
+	width: 30px;
+    height: 5px;
+    margin: 0;
+    background-color: black;
+}
+.sun .carousel-indicators{
+	background: rgba(0,0,0,0.5);
+    border-radius: 26px;
+    padding-bottom: 4px;
+        left: 73%;
+    z-index: 15;
+    width: 15%;
+}
+/*控制显示隐藏的标签*/
+
+.sun .show {
+	display: flex;
+}
+
+.sun .nonelg {
+	display: none!important;
+}
+
+@media (max-width:1024px){
+		.sun .blocksm {
+		display: block!important;
+		zoom: normal;
+	}
+	.sun .nonesm {
+		display: none!important;
+		visibility: hidden;
+	}
+}
+@media (max-width:768px) {
+	.sun .blocksm {
+		display: block!important;
+		zoom: normal;
+	}
+	.sun .nonesm {
+		display: none!important;
+		visibility: hidden;
+	}
+}
+@media (max-width:1024px){
+	.sun .carousel{
+		top: 51px;
+	}
+	.sun .carousel-indicators{
+		width:21%;
+	}
+	.sun .carousel-indicators li{
+		width:20px;
+    	height: 4px;
+	}
+	.sun .carousel-indicators .active{
+		width: 20px;
+    	height: 4px;
+	}
+	.sun .carousel-inner > .item{
+		width: 100%;
+    	/*position: relative;*/
+	}
+	.sun .carousel-inner > .item > img{
+		height: auto;
+		width: 100%;
+	}		
+}
+@media (max-width:768px){
+	.sun .carousel-indicators{
+		width:14%;
+	}
+	.sun .carousel-indicators li{
+		width:15px;
+    	height: 3px;
+	}
+	.sun .carousel-indicators .active{
+		width:15px;
+    	height: 3px;
+	}
+	 .sun .carousel{
+			 	min-height:750px;
+			 	min-width: auto;
+	}
+	.sun  .carousel-inner img{
+			 	min-height:705px;
+   				 min-width: auto;
+	}	
+}

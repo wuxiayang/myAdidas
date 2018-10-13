@@ -2,7 +2,7 @@
 	width: 100%;
 }
 .sun .allstar{
-	    position: relative;
+	position: relative;
     margin-top: 78px;
 }
 .sun .allstarvideo{
@@ -13,63 +13,291 @@
     border-radius: 40px;
     left: 47%;
     height: 83px;
-    /*background: yellow;*/
 }
-.sun .yeepart{
-	    position: relative;
-    /*height: auto;*/
+/*四个明星模块*/
+.sun .starpart{
+	position: relative;
 }
-/*.sun  .yeepart .yeebg{
+/*视频部分+轮播图*/
+.sun .starpart .starvideoroll{
 	position: absolute;
-    top: 0px;
-    float: left;
-}*/
-.sun .yeepart .yeevideoroll{
-	position: absolute;
-    width: 37%;
-    /*height: 100%;*/
-    top: 142px;
-    left: 19%;
-    /*height: auto;*/
-   height: 60%;
+    width: 42%;
+	top: 12%;
     overflow: hidden;	
 }
-.sun .yeevideoroll .yeevideo{
+.sun .starpart .yee{ 
+    left: 19%;
+   height: 68%;
+}
+.sun .starpart  .dyrb{
+    top: 11%;
+    left: 37%;
+    height: 60%;
+}
+.sun .starpart .zk{
+    left: 19%;
+    height:  58%;
+}
+.sun .starvideoroll .starvideo{
     position: relative;
-    width: 101%;
+    width: 100%;
     top: 0px;
-    /*height: 300%;*/
 }
-.sun .yeepart .yeevideo li{
-	float: left;
+
+/*商品小轮播图部分*/
+.sun .starcloths{
+    position: absolute;
+    height: 32%;
+    top: 19%;
+    width: 20%;
+    overflow: hidden;
 }
-.sun .yeevideoroll ol{
-	position: absolute;
-    bottom: -3px;
-    left: 50%;
-    margin-left: -58px;	
+
+.sun .yeecloths{
+	right: 21%;
+	height: 31%;
 }
-.sun  .yeevideoroll ol li{
-    width: 30px;
-    height: 7px;
-    /* border-radius: 50%; */
-    border: 1px solid white;
-    margin-right: 18px;
+.sun .dlrbcloths{
+	right: 60%;
+} 
+.sun .zkcloths{
+	right: 20%;
+	height: 30%;
+	width: 21%;
+}
+.sun .twostarcloths{
+	height: 24%;
+    right: 21%;
+    top: 16%;
+}
+.sun .twostarcloths .clothbg{
+	width: 94%;
+}
+.sun .clothbg{
+	position: relative;
+}
+.sun .starcloths ul{
+    position: absolute;
+    top:0px;
+    height: auto;
+}
+.sun .zkcloths ul,
+.sun .twostarcloths ul{
+	width: 94%;
+}
+.sun .starshoe{
+    right: 23%;
+    width: 18%;
+    position: absolute;
+    bottom: 12%;	
+}
+.sun .yeeshoe{
+	
+}
+.sun .dlrbshoe{
+    left: 19%;
+    width: 20%;
+    bottom: 14%;
+}
+.sun .zkshoe{
+	
+}
+.sun .twostarshoe{
+	height: 24%;
+    top: 58%;
+    left: 22%;	
+}
+.sun .haogoods{
+	
+}
+
+.sun .haogoods h3{
+	text-align: center;
+}
+.sun .haogoods p{
+	color: #666;
+	margin: 0px;
+}
+.sun .haogoods span,
+.sun .haogoods em{
+	display: block;
+}
+.sun .haogoods span{
+	margin-bottom: 10px;
+}
+.sun .haogoods em{
+	font-weight: bold;
+}
+.sun .haogoodslist{
+	width: 83%;
+    margin: 0 auto;
+}
+.sun .haofl{
+	width: 100%;
+    margin: 0 auto;
+    padding-left: 13%;
+    margin-bottom: 70px;   
+}
+.sun .haofour ul{
+	width: 40%;
+	height: auto;
+	padding: 0px;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 0px;
+}
+
+.sun .haofour ul li{
+	position: relative;
+	flex: 1;
+	padding-left: 14px;
+}
+.sun .purse{
+    width: 53%;
+    background: white;
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    height: 15%;	
+}
+.sun .purse p{
+	font-size: 16px;
+    font-weight: bold;
+    padding-left: 5%;
+    margin: 10px 0 10px;
     float: left;
-    background: #f2f2f2;
 }
-.sun  ol.yeeol{
-	position: absolute;
-    bottom: -3px;
-    left: 50%;
-    margin-left: -58px;	
+.sun .purse i{
+	height: 17px;
+	width: 17px;
+	display: inline-block;
+    margin-top: 10%;
+	background-image: url(../images/icon.png);
+	/*background-size: 500px;*/
+	background-repeat: no-repeat;
+	background-position:-71px -19px;
 }
-.sun  ol.yeeol li{
-    width: 30px;
-    height: 7px;
-    /* border-radius: 50%; */
-    border: 1px solid white;
-    margin-right: 18px;
-    float: left;
-    background: #f2f2f2;
+
+.sun .show {
+	display: flex;
+}
+
+.sun .nonelg {
+	display: none!important;
+}
+
+@media (max-width:1024px){
+		.sun .blocksm {
+		display: block!important;
+		zoom: normal;
+	}
+	.sun .nonesm {
+		display: none!important;
+		visibility: hidden;
+	}
+}
+@media (max-width:768px) {
+	.sun .blocksm {
+		display: block!important;
+		zoom: normal;
+	}
+	.sun .nonesm {
+		display: none!important;
+		visibility: hidden;
+	}
+}
+
+@media (max-width:1024px) {
+	.sun .allstar{
+		margin-top: 51px;
+	}
+	.sun .starpart .starvideoroll{
+		width: 59%;
+	}
+	.sun .starcloths{
+		top:11%;
+	}
+	.sun .starpart .yee{
+		left: 3%;
+		height: 54%;
+	}
+	.sun .starpart .dyrb {
+		height: 55%;
+	}
+	.sun .starpart .zk{
+		left: 3%;
+		height: 53%;
+	}
+	.sun .yeecloths{
+		height: 23%;
+		right: 14%;
+		width: 26%;
+	}
+	.sun .dlrbcloths{
+		height: 26%;
+		right: 62%;
+		width: 25%;
+	}
+	.sun .zkcloths{
+		right: 8%;
+		width: 33%;
+	}
+	.sun .yeeshoe{
+		right: 16%;
+		width: 25%;
+	}
+	.sun .starshoe{
+		bottom: 30%;
+	}
+
+	.sun .dlrbshoe{
+		left: 16%;
+    	width: 24%;
+	}
+	.sun .zkshoe{
+		right: 9%;
+    	width: 30%;
+	}
+	.sun .twostarcloths{
+		width: 27%;
+		height: 22%;
+		right: 11%;
+	}
+	.sun .twostarshoe{
+		top:59%;
+		width: 30%;
+		left: 9%;
+	}
+	.sun .phao{
+		padding-bottom: 4px;
+		border-bottom: 1px dashed black ;
+	}
+	.sun .haofour ul{
+      width: 92%;		
+	}
+	.sun .purse{
+	    height: 14%;
+	    width: 32%;
+	}
+	.sun .purse i{
+		margin-top:12%;
+	}
+}
+@media (max-width:768px) {
+	.sun .purse{
+	    height: 17%;
+	    width: 41%;		
+	}
+	.sun .purse p{
+		font-size: 12px;
+	}
+}
+@media (max-width:480px) {
+	.sun .purse {
+	    height: 24%;
+	    width: 55%;
+	}	
+	.sun .purse p{
+		font-size: 12px;
+	}
 }

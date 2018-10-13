@@ -1,0 +1,291 @@
+/*联系我们部分*/
+/*电脑版*/
+.sun  .calluspc{
+	height: 400px;
+	width: 100%;
+	/*background: yellow;*/
+}
+/*1------*/
+.sun .us1bg{
+	width: 100%;
+	height: auto;
+	background: black;
+}
+.sun .us1{
+	height: 80px;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+}
+.sun .us1 li{
+	font-size: 12px;
+    font-weight: bold;
+	flex: 1;
+	color: white;
+	height: 80px;
+	text-align: center;
+	padding-top: 25px;
+}
+.sun .us1 li span{
+	width: 45%;
+}
+.sun .us1 li span.sp1{
+	width: 63%;
+}
+.sun .us1 li em{
+	vertical-align: bottom;
+	height: 21px;
+	width: 23px;
+	cursor: pointer;
+    background-image: url(../images/icon1.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+.sun .us1 li  .tex1{
+	background-position: -357px -107px;
+}
+.sun .us1 li  .t5{
+	margin-left: -42px;
+}
+.sun .us1 li i{
+	font-style: normal;
+    font-size: 14px;
+    color: #ddd;
+    /*float: left;*/
+    padding-left: 28px;
+}
+/*-------1*/
+/*2--------*/
+.sun .us2{
+	height: 262px;
+	width: 80%;
+	display: flex;
+	/*background: red;*/
+	flex-direction: row;
+}
+.sun .us2 li.us2li{
+	flex: 1;
+	height: 285px;
+	padding-top: 24px;
+	/*border: 1px solid #000;*/
+}
+.sun .us2 li.us2li ul{
+    padding-left: 53px;
+}
+.sun .us2 li.us2li li.us2lil{
+    height: 25px;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 0px 24px 0px;
+}
+.sun .us2 li.us2li ul li{
+    padding: 10px 0px 0px 0px;
+}
+.sun .us2 li.us2li .lisp{
+	height:29px;
+	width:38px;
+	cursor: pointer;
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    /*background-size: 500px;*/	
+}
+.sun .us2 li.us2li .li1{
+    background-position: -126px -155px;
+}
+.sun .us2 li.us2li .li2{
+	background-position: -270px -153px;
+}
+/*--------2*/
+/*3-------*/
+.sun .us3,.sun .us4{
+	width: 80%;
+	height:30px;
+	margin: 0 auto;
+	margin-bottom: 8px;
+}
+.sun .us3 li,.sun .us4 li{
+	float: left;
+}
+.sun .us3 li:nth-child(1),.sun .us4 li{
+	padding-top: 10px;
+}
+.sun .us3 li span,.sun .p1 li span{
+    height: 31px;
+    width: 108px;
+	cursor: pointer;
+    background-image: url(../images/icon1.png);
+    background-repeat: no-repeat;
+    background-size: 500px;	
+}
+.sun .us3 li span.spp1{
+    background-position: -214px -154px;
+}
+.sun .us3 li span.spp2{
+	background-position: -319px -154px;
+	width: 84px;
+}
+.sun .us3 li span.spp3{
+    background-position: -399px -154px;
+}
+.sun .us3 li span.spp4{
+    background-position: -399px -184px;
+}
+.sun .bottom-list{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+.sun .p1{
+	flex: 1;
+	height:30px;
+	
+}
+.sun .p1left{
+	padding-left: 134px;
+}
+.sun .p1 li{
+    padding-top: 10px;
+    float: left;
+    padding-right: 3px;
+}
+.sun .p1 li span{
+    height: 16px;
+    width: 22px;
+}
+.sun  dl dd span{
+	height: 14px;
+	width: 19px;
+}
+.sun  li span.p11,
+.sun  dl dd span.p11{
+    background-position: -161px -45px;
+    float: left;
+}
+.sun  li span.p12,
+.sun  dl dd span.p12{
+    background-position: -297px -75px;
+}
+.sun  li span.p13,
+.sun  dl dd span.p13{
+ 	background-position: -325px -75px;
+}
+.sun  dl dd span.p14{
+    background-position: -329px -47px;
+}
+/*手机版*/
+.sun .callusph{ 
+    background:black;
+    height: 378px;
+    width: 100%;	
+}
+.sun .callusph i,.sun .callusph span,.sun .callusph em{
+	cursor: pointer;
+    background-image: url(../images/icon1.png);
+    background-repeat: no-repeat;
+    background-size: 500px;	
+    vertical-align: middle;
+}
+.sun .callusph ul{
+	border-bottom: 1px solid #f2f2f2;
+	color: white;
+}
+.sun .callusph ul:nth-child(1){
+	height: 52px;
+	font-size: 18px;
+    /*font-weight: bold;*/
+}
+.sun .callusph ul:nth-child(1) li{
+	padding-top: 6px;
+}
+.sun .callusph ul:nth-child(1) li:nth-child(1){
+ 	    padding-left: 33px;
+}
+.sun .callusph ul:nth-child(1) li:nth-child(2){
+ 	    padding-right: 33px;
+}
+.sun .callusph ul:nth-child(2){
+	height: 106px;
+}
+.sun .callusph ul:nth-child(2) li,
+.sun .callusph ul:nth-child(3) li,
+.sun .callusph ul:nth-child(4) li,
+.sun .callusph ul:nth-child(6) li{
+	width: 62%;
+}
+.sun .callusph ul:nth-child(5) li{
+	width: 80%;
+}
+.sun .callusph ul:nth-child(2) dd{
+	padding: 3px 0px 7px 0px;
+}
+.sun .callusph ul:nth-child(3),
+.sun .callusph ul:nth-child(4),
+.sun .callusph ul:nth-child(5),
+.sun .callusph ul:nth-child(6){
+	height: 38px;
+}
+.sun .callusph ul:nth-child(5){
+    height: 30px;
+}
+.sun .callusph ul:nth-child(6){
+	margin-bottom: 0px;
+	border-bottom: none;
+}
+.sun .my{
+	height: 37px;
+    width: 30px;
+    background-position: 11px -38px;
+}
+.sun .bag{
+	height: 34px;
+    width: 34px;
+    background-position: 10px -12px;
+}
+/*公共部分*/
+/*控制显示隐藏的标签*/
+
+.sun .show {
+	display: flex;
+}
+
+.sun .nonelg {
+	display: none!important;
+}
+
+@media (max-width:1024px){
+		.sun .blocksm {
+		display: block!important;
+		zoom: normal;
+	}
+	.sun .nonesm {
+		display: none!important;
+		visibility: hidden;
+	}
+}
+@media (max-width:768px) {
+	.sun .blocksm {
+		display: block!important;
+		zoom: normal;
+	}
+	.sun .nonesm {
+		display: none!important;
+		visibility: hidden;
+	}
+}
+@media (max-width:1024px){
+		.sun .callusph ul:nth-child(6) li{
+		width: 22%;
+	}
+}
+@media (max-width:768px){
+	.sun .callusph ul:nth-child(6) li{
+		width: 30%;
+	}
+}
+@media (max-width:370px ) {
+	.sun .callusph ul:nth-child(6) li{
+		width: 58%;
+	}
+}

@@ -245,6 +245,9 @@
     border: 2px solid black;
     padding: 5px 38px 5px 38px;
 }
+.sun .carousel {
+    top: 51px;
+}
 @media (max-width:1024px ) {
 	.sun .selectshoe .shoetitle{
 		background:#f3f3f3;
